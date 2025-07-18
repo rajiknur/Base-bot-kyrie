@@ -10,5 +10,5 @@ let handler = async (m, { conn, isCreator, reply }) => {
   return reply(`📂 Daftar Plugin:\n\n${list}`)
 }
 
-handler.command = ["listcase", "listplugin", "cekplugins"]
+handler.command = ["liatplugins", "listplugin", "cekplugins"]
 module.exports = handler
