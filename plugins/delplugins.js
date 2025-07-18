@@ -12,5 +12,5 @@ let handler = async (m, { conn, isCreator, text, reply, example }) => {
   return reply(`Berhasil menghapus file plugins *${text}*`)
 }
 
-handler.command = ["delcase", "deleteplugin", "hapusplugin"]
+handler.command = ["delplugin", "deleteplugin", "hapusplugin"]
 module.exports = handler
